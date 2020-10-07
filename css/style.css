@@ -1,0 +1,15 @@
+[class*=col-]{
+  border: 1px solid blue;
+
+}
+.h-400{
+  height:400px;
+}
+
+.h-80{
+  height:80px;
+}
+
+.h-150{
+  height:150px;
+}

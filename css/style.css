@@ -1,10 +1,12 @@
+html{
+  font-family: 'Open Sans', sans-serif;
+}
+
 [class*=col-]{
   border: 1px solid blue;
 
 }
-.h-400{
-  height:400px;
-}
+
 
 .h-80{
   height:80px;
@@ -12,4 +14,92 @@
 
 .h-150{
   height:150px;
+}
+
+.sidebar{
+
+}
+
+.sidebar > img {
+  width:100%;
+  height:100%;
+  line-height:30px;
+  vertical-align: middle;
+}
+
+.sidebar > ul > li{
+  list-style:none;
+  display:inline-block;
+  padding:3px;
+  line-height:30px;
+  vertical-align: middle;
+}
+
+.sidebar > ul > li > a {
+  text-decoration: none;
+  font-size:1.5rem;
+  color: #2c406c;
+}
+
+.sidebar > ul > a {
+  border: 1px solid #006aff;
+  color: #006aff;
+  line-height:30px;
+  vertical-align: middle;
+  font-size:1.5rem;
+  padding:3px;
+  border-radius:5px;
+}
+
+.hamb{
+  color:#006aff;
+  float:right;
+  font-size:2.2rem;
+  text-align: right;
+  line-height:60px;
+  vertical-align: middle;
+}
+
+.hero-bg{
+  background-image: url(../img-oce/bg-home-hero-3-bb4b33b77274db09b969f629ad81c4d5.svg);
+  height:100%;
+  width:100%;
+  background-size: contain;
+}
+
+.hero-left > h1{
+  font-size:5rem;
+  color:#fff;
+  padding:20px;
+
+
+}
+
+.hero-left > p{
+  font-size:2rem;
+  color:#fff;
+  padding:20px;
+
+}
+
+.hero-right{
+  background-color: #fff;
+  text-align:center;
+  margin:30px;
+  width:100%;
+}
+
+.hero-right > .my_pad > h3{
+  font-size: 3rem;
+}
+
+.hero-right > .my_pad > h3:last-child{
+  color: #006aff;
+
+}
+.hero-right > .team > p {
+  display: inline-block;
+}
+.my_pad {
+margin-top:15px;
 }

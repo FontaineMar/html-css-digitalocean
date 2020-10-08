@@ -106,12 +106,21 @@ margin-top:15px;
 
 .bg-lightgrey{
   background-color:#f3f5f9;
+  padding-bottom:5%;
+  padding-top:5%;
 }
+.bg-white{
+  background-color:#fff;
+  padding-top:5%;
+  padding-bottom:5%;
+  width:80%;
+  margin-left: auto;
+  margin-right:auto;
 
+}
 .customers{
   color:#616e8b;
   font-size:2rem;
-  padding-top:15px;
 
 }
 
@@ -140,7 +149,6 @@ margin-top:15px;
 .menu-deploy > h3{
   color: #031b4e;
   font-size:2.5rem;
-  padding-top:5%;
 }
 
 .menu-deploy > div > img{
@@ -165,8 +173,7 @@ max-height:30px;
 .designed > h3{
   color: #031b4e;
   font-size:2.5rem;
-  padding-top:5%;
-  }
+}
 
 .designed > p{
   color: #616e8b;
@@ -190,4 +197,23 @@ line-height:370px;
 vertical-align: middle;
 font-weight: bold;
 
+}
+.features > h3{
+  color: #031b4e;
+  font-size:2.5rem;
+}
+
+.features > h5{
+    color: #031b4e;
+    font-size:1.7rem;
+}
+
+.features > div > p {
+  color: #031b4e;
+  font-size:1.7rem;
+}
+
+.features > div > a {
+  color:#006aff;
+  text-decoration: none;
 }

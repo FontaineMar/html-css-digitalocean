@@ -103,3 +103,91 @@ html{
 .my_pad {
 margin-top:15px;
 }
+
+.bg-lightgrey{
+  background-color:#f3f5f9;
+}
+
+.customers{
+  color:#616e8b;
+  font-size:2rem;
+  padding-top:15px;
+
+}
+
+.customers > img {
+  width: 200px;
+  height:80px;
+}
+
+.customers > a{
+  color:#006aff;
+  font-size:1.5rem;
+  text-decoration: none;
+
+}
+
+.menu-deploy > a{
+  border-left:1px solid #616e8b;
+  display: block;
+  color: #616e8b;
+  padding-left:3px;
+  vertical-align: middle;
+  font-size:1.7rem;
+  padding-top:10px;
+}
+
+.menu-deploy > h3{
+  color: #031b4e;
+  font-size:2.5rem;
+  padding-top:5%;
+}
+
+.menu-deploy > div > img{
+max-width:30px;
+max-height:30px;
+}
+.menu-deploy > p{
+  color: #616e8b;
+  font-size:1.8rem;
+}
+
+.menu-deploy > h5{
+  color: #031b4e;
+  font-size:1.7rem;
+}
+
+.menu-deploy > div > p {
+  color: #616e8b;
+  font-size:1.5rem;
+}
+
+.designed > h3{
+  color: #031b4e;
+  font-size:2.5rem;
+  padding-top:5%;
+  }
+
+.designed > p{
+  color: #616e8b;
+  font-size:1.8rem;
+}
+
+.designed > div > p {
+  color: #031b4e;
+  font-size:1.7rem;
+  text-align: center;
+}
+
+.designed > img {
+  width:100%;
+  height: 100%;
+}
+
+.designed > i {
+font-size:2rem;
+line-height:370px;
+vertical-align: middle;
+font-weight: bold;
+
+}

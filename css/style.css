@@ -2,9 +2,13 @@ html{
   font-family: 'Open Sans', sans-serif;
 }
 
+.sidebar{
+  padding-bottom:1%;
+  padding-top:1%;
+}
 .sidebar > img {
   width:100%;
-  height:100%;
+  height:50px;
   line-height:30px;
   vertical-align: middle;
 }
@@ -44,9 +48,9 @@ html{
 
 .hero-bg{
   background-image: url(../img-oce/bg-home-hero-3-bb4b33b77274db09b969f629ad81c4d5.svg);
-  height:100%;
-  width:100%;
   background-size: contain;
+  padding-top:5%;
+  padding-bottom:5%;
 }
 
 .hero-left > h1{
@@ -71,11 +75,12 @@ html{
   width:100%;
 }
 
-.hero-right > .my_pad > h3{
+.hero-right > h3{
   font-size: 3rem;
+
 }
 
-.hero-right > .my_pad > h3:last-child{
+.hero-right :nth-child(2){
   color: #006aff;
 
 }
@@ -111,6 +116,7 @@ margin-top:15px;
   padding-bottom:5%;
   padding-top:5%;
 }
+
 .customers{
   color:#616e8b;
   font-size:2rem;
@@ -118,8 +124,9 @@ margin-top:15px;
 }
 
 .customers > img {
-  width: 200px;
+  width:16%;
   height:80px;
+  display: inline-block;
 }
 
 .customers > a{
@@ -182,7 +189,7 @@ max-height:30px;
 
 .designed > img {
   width:100%;
-  height: 100%;
+  height:370px;
 }
 
 .chev > i {
@@ -288,4 +295,21 @@ font-weight: bold;
 /* Bruttissimo */
 .no-bord{
   border:none;
+}
+
+
+/* MEDIA QUERY */
+
+@media screen and (min-width: 768px) and (max-width: 992px){
+  .customers > img{
+    width:30%;
+
+  }
+}
+
+
+@media screen and (max-width: 768px){
+  .customers > img{
+    width:48%;
+  }
 }

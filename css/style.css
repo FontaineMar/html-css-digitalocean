@@ -55,8 +55,24 @@ html{
   font-size:5rem;
   color:#fff;
   padding:20px;
+}
 
+.font-white{
+  color:#fff;
+}
+.text-size > h3{
+  font-size:3.5rem;
+  padding-bottom:10px;
+}
 
+.text-size > p{
+  font-size:1.7rem;
+  padding-bottom:20px;
+}
+
+.text-size > h4 {
+color:#616e8b;
+font-size:2rem;
 }
 
 .hero-left > p{
@@ -113,12 +129,6 @@ html{
   padding-top:5%;
 }
 
-
-.customers{
-  color:#616e8b;
-  font-size:2rem;
-}
-
 .customers > img {
   width:16%;
   height:80px;
@@ -129,7 +139,6 @@ html{
   color:#006aff;
   font-size:1.5rem;
   text-decoration: none;
-
 }
 
 .menu-deploy > a{
@@ -142,33 +151,23 @@ html{
   padding-top:10px;
 }
 
-.menu-deploy > h3{
-  color: #031b4e;
-  font-size:2.5rem;
-}
-
 .menu-deploy > div > img{
 max-width:30px;
 max-height:30px;
 }
+
 .menu-deploy > p{
   color: #616e8b;
   font-size:1.8rem;
 }
 
 .menu-deploy > h5{
-  color: #031b4e;
   font-size:1.7rem;
 }
 
 .menu-deploy > div > p {
   color: #616e8b;
   font-size:1.5rem;
-}
-
-.designed > h3{
-  color: #031b4e;
-  font-size:2.5rem;
 }
 
 .designed > p{
@@ -195,10 +194,6 @@ vertical-align: middle;
 font-weight: bold;
 
 }
-.features > h3{
-  color: #031b4e;
-  font-size:2.5rem;
-}
 
 .features > h5{
     color: #031b4e;
@@ -215,21 +210,17 @@ font-weight: bold;
   text-decoration: none;
 }
 
-.service-title > h3{
-  color: #fff;
-  font-size:3.5rem;
-}
-
 .service > a{
   float:right;
   color:lightgrey;
   text-decoration: none;
   font-size:1.5rem;
 }
+
 .service{
   border-bottom:1px solid lightgrey;
-
 }
+
  .service :nth-child(1){
   font-weight:bold;
   color:#fff;
@@ -245,35 +236,23 @@ font-weight: bold;
 }
 
 .development{
-
   background-color: #fff;
-
-}
-.development-text > h3{
-  color: #031b4e;
-  font-size:2.5rem;
 }
 
 .development > a{
   text-decoration: none;
   color:#006aff;
 }
-.development > p {
-  padding-top:30px;
-}
+
 .development > img{
- margin-top:100px;
+ margin-top:20%;
+ margin-bottom:10%;
  width:80%;
 }
 
 .development :nth-child(2){
   font-size:1.8rem;
   color:grey;
-}
-
-.get > h3{
-  color:#fff;
-  font-size:3.5rem;
 }
 
 .get > p > button {

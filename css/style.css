@@ -57,23 +57,6 @@ html{
   padding:20px;
 }
 
-.font-white{
-  color:#fff;
-}
-.text-size > h3{
-  font-size:3.5rem;
-  padding-bottom:10px;
-}
-
-.text-size > p{
-  font-size:1.7rem;
-  padding-bottom:20px;
-}
-
-.text-size > h4 {
-color:#616e8b;
-font-size:2rem;
-}
 
 .hero-left > p{
   font-size:2rem;
@@ -102,6 +85,25 @@ font-size:2rem;
   display: inline-block;
 }
 
+
+.font-white{
+  color:#fff;
+}
+
+.text-size > h3{
+  font-size:3.5rem;
+  padding-bottom:10px;
+}
+
+.text-size > p{
+  font-size:1.7rem;
+  padding-bottom:20px;
+}
+
+.text-size > h4 {
+color:#616e8b;
+font-size:2rem;
+}
 
 .bg-lightgrey{
   background-color:#f3f5f9;
